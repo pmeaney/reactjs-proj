@@ -1,5 +1,5 @@
 import 'mapbox-gl/dist/mapbox-gl.css';
-import './mapboxExample.scss'
+import './../mapboxExample.scss'
 import React, { useRef, useEffect, useState } from 'react';
 
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax

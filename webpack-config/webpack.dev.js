@@ -25,7 +25,14 @@ module.exports = {
       {
         test: /\.(s[ac]ss|css)$/,
         use: ['style-loader', 'css-loader', 'sass-loader']
-      }
+      },
+      {
+        // test: /\.(json|geojson)$/,
+        // loader: 'json-loader',
+          test: /\.geojson$/,
+          type: 'json',
+        // type: 'javascript/auto'
+      },
     ]
   },
   devServer: {
