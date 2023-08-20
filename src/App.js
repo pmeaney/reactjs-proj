@@ -1,4 +1,8 @@
 import MapBoxMap from './MapBoxMap';
+import MapBoxMapB from './MapBoxMapB';
+import MapBoxMapC from './MapBoxMapC';
+import MapEx from './example_markers/MapEx';
+import MapExB from './example_markersB/MapExB';
 
 const App = () => {
   return (
